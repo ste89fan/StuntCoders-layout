@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    min-width: 400px;
+    width: 100%;
+    font-family: 'PT Serif', serif;
+}
+
+.headerImg {
+    background-image: url("../pics/header.jpg");
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.headerText {
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 25%;
+
+    & h1 {
+        font-size: 70px;
+    }
+    & p {
+        font-size: 30px;
+        font-weight: bold;
+        // text-shadow: 0 1px;
+    }
+}
