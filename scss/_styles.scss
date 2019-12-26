@@ -11,7 +11,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
-    width: 100%;
     position: relative;
 }
 
@@ -27,6 +26,38 @@ body {
     & p {
         font-size: 30px;
         font-weight: bold;
-        // text-shadow: 0 1px;
     }
+}
+
+.numberOne {
+    background-color: $primary;
+    @include width(110px);
+}
+
+.firstRowDivs {
+    @include height(200px);
+}
+
+.spanNum {
+    font-size: 90px;
+    color: white;
+}
+
+.firstRowImg {
+    width: 200px;
+    height: 200px;
+}
+
+.secondRowDivs {
+    @include height(250px);
+}
+
+.secondRowImg {
+    width: 150px;
+    height: 250px;
+}
+
+.numberTwo {
+    background-color: $primary;
+    @include width(180px);
 }
