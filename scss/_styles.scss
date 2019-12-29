@@ -31,11 +31,8 @@ body {
 
 .numberOne {
     background-color: $primary;
-    @include width(110px);
-}
-
-.firstRowDivs {
     @include height(200px);
+    @include width(150px);
 }
 
 .spanNum {
@@ -44,20 +41,50 @@ body {
 }
 
 .firstRowImg {
-    width: 200px;
-    height: 200px;
-}
-
-.secondRowDivs {
-    @include height(250px);
+    @include height(220px);
+    @include width(200px);
 }
 
 .secondRowImg {
-    width: 150px;
-    height: 250px;
+    @include height(300px);
+    @include width(150px);
 }
 
 .numberTwo {
     background-color: $primary;
-    @include width(180px);
+    @include height(300px);
+    @include width(150px);
 }
+
+
+.thirdRowImg {
+    @include height(300px);
+    @include width(150px);
+}
+
+.numberThree {
+    background-color: $primary;
+    @include height(300px);
+    @include width(150px);
+}
+
+.card-img {
+    height : 100%;
+}
+
+.numberFour {
+    background-color: $primary;
+    @include height(150px);
+    @include width(150px);
+}
+
+
+// .numberTwo {
+//     background-color: $primary;
+//     @include width(110px);
+// }
+
+// .thirdRowImg {
+//     height : 100px;
+// }
+

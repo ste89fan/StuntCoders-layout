@@ -7165,26 +7165,39 @@ body {
 
 .numberOne {
   background-color: #80b5f1;
-  width: 110px; }
-
-.firstRowDivs {
-  height: 200px; }
+  height: 200px;
+  width: 150px; }
 
 .spanNum {
   font-size: 90px;
   color: white; }
 
 .firstRowImg {
-  width: 200px;
-  height: 200px; }
-
-.secondRowDivs {
-  height: 250px; }
+  height: 220px;
+  width: 200px; }
 
 .secondRowImg {
-  width: 150px;
-  height: 250px; }
+  height: 300px;
+  width: 150px; }
 
 .numberTwo {
   background-color: #80b5f1;
-  width: 180px; }
+  height: 300px;
+  width: 150px; }
+
+.thirdRowImg {
+  height: 300px;
+  width: 150px; }
+
+.numberThree {
+  background-color: #80b5f1;
+  height: 300px;
+  width: 150px; }
+
+.card-img {
+  height: 100%; }
+
+.numberFour {
+  background-color: #80b5f1;
+  height: 150px;
+  width: 150px; }
